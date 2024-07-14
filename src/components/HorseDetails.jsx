@@ -1,6 +1,15 @@
 // src/components/HorseDetails.jsx
 
 import React from 'react';
+import thunderHorse from '../assets/images/thunder-horse.svg';
+import lightningHorse from '../assets/images/lightning-horse.svg';
+import stormHorse from '../assets/images/storm-horse.svg';
+import breezeHorse from '../assets/images/breeze-horse.svg';
+import white1 from '../assets/images/white-1.svg';
+import white2 from '../assets/images/white-2.svg';
+import white3 from '../assets/images/white-3.svg';
+import white4 from '../assets/images/white-4.svg';
+
 import '../assets/styles/HorseDetails.css';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -14,10 +23,10 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 const horses = [
-    { id: 1, name: 'Thunder', image: './public/images/thunder-horse.svg', logo: './public/images/white-1.svg', rides: 36 },
-    { id: 2, name: 'Lightning', image: './public/images/lightning-horse.svg', logo: './public/images/white-4.svg', rides: 28 },
-    { id: 3, name: 'Storm', image: './public/images/storm-horse.svg', logo: './public/images/white-3.svg', rides: 45 },
-    { id: 4, name: 'Breeze', image: './public/images/breeze-horse.svg', logo: './public/images/white-2.svg', rides: 32 },
+    { id: 1, name: 'Thunder', image: { thunderHorse }, logo: { white1 }, rides: 36 },
+    { id: 2, name: 'Lightning', image: { lightningHorse }, logo: { white4 }, rides: 28 },
+    { id: 3, name: 'Storm', image: { stormHorse }, logo: { white3 }, rides: 45 },
+    { id: 4, name: 'Breeze', image: { breezeHorse }, logo: { white2 }, rides: 32 },
 ];
 
 const HorseDetails = () => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/Footer-style.css';
+import logo from '../assets/images/logo.svg';
 
 const Footer = () => {
     return (
@@ -7,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 mb-3">
-                        <img src="./public/images/logo.svg" className='logo'/>
+                        <img src={logo} className='logo'/>
                         <p className='text-white'>
                             We offer unforgettable horse riding experiences. Join us for a ride and discover the beauty of the outdoors.
                         </p>

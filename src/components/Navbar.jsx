@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/Navbar-style.css';
+import logo from '../assets/images/logo.svg';
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
             <nav className="navbar fixed-top custom-nav">
                 <div className="container-fluid">
                     <a className="navbar-brand" href='#'>
-                        <img src="./public/images/logo.svg" className="brand-logo" />
+                        <img src={logo} className="brand-logo" />
                     </a>
                     <button className="ms-auto bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <i className="bi bi-list-nested text-white fs-3"></i>
