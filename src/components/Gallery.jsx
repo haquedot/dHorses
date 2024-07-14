@@ -40,31 +40,31 @@ const Gallery = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-1.svg" />
+                        <img src="./src/assets/images/horse-1.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-2.svg" />
+                        <img src="./src/assets/images/horse-2.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-3.svg" />
+                        <img src="./src/assets/images/horse-3.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-4.svg" />
+                        <img src="./src/assets/images/horse-4.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-5.svg" />
+                        <img src="./src/assets/images/horse-5.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-6.svg" />
+                        <img src="./src/assets/images/horse-6.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-7.svg" />
+                        <img src="./src/assets/images/horse-7.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-8.svg" />
+                        <img src="./src/assets/images/horse-8.svg" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <img src="/src/assets/images/horse-9.svg" />
+                        <img src="./src/assets/images/horse-9.svg" />
                     </SwiperSlide>
                 </Swiper>
             </div>

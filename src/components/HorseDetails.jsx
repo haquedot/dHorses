@@ -14,10 +14,10 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 const horses = [
-    { id: 1, name: 'Thunder', image: '/src/assets/images/thunder-horse.svg', logo: '/src/assets/images/white-1.svg', rides: 36 },
-    { id: 2, name: 'Lightning', image: '/src/assets/images/lightning-horse.svg', logo: '/src/assets/images/white-4.svg', rides: 28 },
-    { id: 3, name: 'Storm', image: '/src/assets/images/storm-horse.svg', logo: '/src/assets/images/white-3.svg', rides: 45 },
-    { id: 4, name: 'Breeze', image: '/src/assets/images/breeze-horse.svg', logo: '/src/assets/images/white-2.svg', rides: 32 },
+    { id: 1, name: 'Thunder', image: './src/assets/images/thunder-horse.svg', logo: './src/assets/images/white-1.svg', rides: 36 },
+    { id: 2, name: 'Lightning', image: './src/assets/images/lightning-horse.svg', logo: './src/assets/images/white-4.svg', rides: 28 },
+    { id: 3, name: 'Storm', image: './src/assets/images/storm-horse.svg', logo: './src/assets/images/white-3.svg', rides: 45 },
+    { id: 4, name: 'Breeze', image: './src/assets/images/breeze-horse.svg', logo: './src/assets/images/white-2.svg', rides: 32 },
 ];
 
 const HorseDetails = () => {

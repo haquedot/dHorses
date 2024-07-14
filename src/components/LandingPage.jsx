@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../assets/styles/LandingPage.css'
-import logo from '../assets/images/logo.svg'
 import BookingForm from './BookingForm';
 import BookingConfirmation from './BookingConfirmation';
 

@@ -15,7 +15,6 @@ const BookingConfirmation = ({ details, handleClose }) => {
                         <p>Thank you, {name}! Your booking has been confirmed.</p>
                         <p>You have booked a ride with {horse} on {date} at {time}.</p>
                         <p>We look forward to seeing you!</p>
-                        {/* You can add calendar invite logic here if needed */}
                     </div>
                 </div>
             </div>
