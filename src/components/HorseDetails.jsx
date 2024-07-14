@@ -23,10 +23,10 @@ import 'swiper/css/pagination';
 import { Autoplay, Pagination } from 'swiper/modules';
 
 const horses = [
-    { id: 1, name: 'Thunder', image: { thunderHorse }, logo: { white1 }, rides: 36 },
-    { id: 2, name: 'Lightning', image: { lightningHorse }, logo: { white4 }, rides: 28 },
-    { id: 3, name: 'Storm', image: { stormHorse }, logo: { white3 }, rides: 45 },
-    { id: 4, name: 'Breeze', image: { breezeHorse }, logo: { white2 }, rides: 32 },
+    { id: 1, name: 'Thunder', image: thunderHorse, logo: white1, rides: 36 },
+    { id: 2, name: 'Lightning', image: lightningHorse, logo: white4, rides: 28 },
+    { id: 3, name: 'Storm', image: stormHorse, logo: white3, rides: 45 },
+    { id: 4, name: 'Breeze', image: breezeHorse, logo: white2, rides: 32 },
 ];
 
 const HorseDetails = () => {
