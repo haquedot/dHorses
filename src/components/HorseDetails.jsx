@@ -62,7 +62,7 @@ const HorseDetails = () => {
 
                 {horses.map(horse => (
                     <SwiperSlide key={horse.id} className="horse-card col-md-3 mb-4">
-                        <div className="card">
+                        <div className="card border-0">
                             <img src={horse.image} className="card-img-top" alt={horse.name} />
                             <div className="card-img-overlay d-flex flex-column justify-content-between align-items-center">
                                 <div className="w-100 d-flex flex-column">

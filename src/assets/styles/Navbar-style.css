@@ -1,28 +1,92 @@
+.brand-logo {
+    width: 35px;
+}
+
 .custom-nav {
+    border: 1px solid #c9723fb0;
+    border-radius: 50px;
+    padding: 8px 10px;
+    margin: 12px 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.navbar-scrolled {
+    background-image: linear-gradient(to right, #502d198f 0%, #3517058f 51%, #91350093 100%);
+    color: #fff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.bg-body-transparent {
     background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    outline: none;
+    box-shadow: none;
 
 }
 
-.navbar-brand .brand-logo {
-    width: 50px;
+.bi-text-center {
+    color: #C9723F;
+}
+
+.offcanvas-header {
+    background-color: #000;
+}
+
+.offcanvas-body {
+    background-color: #000;
 }
 
 .nav-item .nav-link {
-    background-color: #57342A;
-    border-radius: 20px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
+    color: #b9b9b9 !important;
+    font-size: 18px;
     font-family: Inter;
-    width: 80px;
-    text-align: center;
-    margin-bottom: 8px;
+    font-weight: 500;
 }
 
 .nav-item .active {
-    background-color: #C9723F;
-    font-size: 16px;
-    font-weight: 500;
-    font-family: Inter;
     color: #fff !important;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 500;
+}
+
+
+.sign-btn {
+    border: none;
+    background-image: linear-gradient(to right, #573017 0%, #C9723F 51%, #C9723F 100%);
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+}
+
+.sign-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .offcanvas-header {
+        background-color: transparent;
+    }
+
+    .offcanvas-body {
+        background-color: transparent;
+    }
+
+    .custom-nav {
+        margin: 10px 0px 0px 0px;
+        width: 45%;
+    }
 }
