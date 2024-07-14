@@ -1,0 +1,83 @@
+.pricing {
+    padding: 60px 0;
+}
+
+
+
+.pricing h2 {
+    position: relative;
+    font-size: 62px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing span {
+    color: #212121e4;
+    font-size: 78px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+.pricing-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 450px;
+}
+
+.pricing-card .card-header {
+    background-color: #57342A;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pricing-card h4 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.pricing-card p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.pricing-card .list-group-item {
+    font-size: 16px;
+    /* padding: 15px 20px; */
+    border: none;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.pricing-card .card-body {
+    padding: 20px;
+}
+
+.pricing-card .btn-primary {
+    background-color: #C9723F;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+    .pricing h2 {
+        font-size: 72px;
+    }
+
+    .pricing span {
+        font-size: 88px;
+
+    }
+}

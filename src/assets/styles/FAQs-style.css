@@ -1,0 +1,42 @@
+.faqs {
+    padding: 60px 0;
+}
+
+.faqs h2 {
+    position: relative;
+    font-size: 62px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faqs span {
+    color: #212121e4;
+    font-size: 68px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+
+@media (min-width: 768px) {
+    .faqs h2 {
+        font-size: 72px;
+    }
+
+    .faqs span {
+        font-size: 88px;
+
+    }
+}
+
+.accordion-button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000;
+}
+
+.accordion-body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}

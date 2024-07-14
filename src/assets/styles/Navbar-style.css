@@ -1,0 +1,28 @@
+.custom-nav {
+    background-color: transparent;
+
+}
+
+.navbar-brand .brand-logo {
+    width: 50px;
+}
+
+.nav-item .nav-link {
+    background-color: #57342A;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    width: 80px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.nav-item .active {
+    background-color: #C9723F;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Inter;
+    color: #fff !important;
+}

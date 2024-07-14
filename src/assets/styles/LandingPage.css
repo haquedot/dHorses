@@ -1,0 +1,85 @@
+/* Mobile-first styles */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+
+    height: 100vh;
+    /* width: 100vw; */
+    background-image: url('../images/hero-2.svg');
+}
+
+.landing-page .logo {
+    width: 110px;
+    margin-bottom: -10px;
+}
+
+
+.landing-page h6 {
+    position: relative;
+    margin-bottom: -20px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    /* Adjusted for mobile */
+    font-weight: 900;
+}
+
+.landing-page h1 {
+    font-family: Inter;
+    color: #fff;
+    font-size: 36px;
+    /* Adjusted for mobile */
+    font-weight: 700;
+}
+
+.landing-page .book-now {
+    border: none;
+    background-image: linear-gradient(to right, #573017 0%, #C9723F 51%, #C9723F 100%);
+    padding: 15px 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+}
+
+.landing-page .book-now:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Styles for larger screens */
+@media (min-width: 768px) {
+    .landing-page h6 {
+        font-size: 42px;
+        margin-bottom: -30px;
+
+    }
+
+    .landing-page h1 {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .landing-page h6 {
+        font-size: 84px;
+        margin-bottom: -40px;
+
+    }
+
+    .landing-page h1 {
+        font-size: 64px;
+    }
+}

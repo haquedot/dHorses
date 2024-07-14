@@ -1,0 +1,11 @@
+.modal {
+    display: none; /* Hide by default */
+}
+
+.modal.show {
+    display: block; /* Show when active */
+}
+
+.modal-backdrop {
+    opacity: 0.5 !important; /* Customize the backdrop opacity */
+}

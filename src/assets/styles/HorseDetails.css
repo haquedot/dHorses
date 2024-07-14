@@ -1,0 +1,156 @@
+/* Global Styles */
+.horse-detail h2 {
+    position: relative;
+    font-size: 62px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.horse-detail .heading span {
+    color: #212121e4;
+    font-size: 78px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+/* Card Styles */
+.horse-detail .card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.horse-detail .card h5 {
+    margin-bottom: 0;
+    color: #ffffffdb;
+}
+
+.horse-detail .card h5 span {
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-family: Inter;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ride-count h4 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.ride-count h4 span {
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    /* Adjusted font size for mobile */
+}
+
+/* Image Styles */
+.horse-detail .card img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    width: 100%;
+    /* Ensures image fills its container */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.horse-detail .card:hover img {
+    transform: scale(1.05);
+}
+
+/* Overlay Styles */
+.horse-detail .card-img-overlay {
+    background: rgba(0, 0, 0, 0.199);
+    border-radius: 8px;
+    transition: background 0.3s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    opacity: 1;
+    /* Start with full opacity */
+}
+
+.horse-detail .card-title,
+.ride-count {
+    transition: opacity 0.3s ease;
+    /* text-align: center; */
+}
+
+.horse-detail .card:hover .card-title,
+.card:hover .ride-count {
+    opacity: 0;
+}
+
+.horse-detail .card:hover .card-img-overlay {
+    background: rgba(0, 0, 0, 0.605);
+}
+
+/* Book Now Button Styles */
+.book-now-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    z-index: 1;
+    /* Ensure button is above overlay */
+}
+
+.book-now-btn img {
+    width: 60px;
+    /* Adjusted size for mobile */
+}
+
+.horse-detail .card:hover .book-now-btn {
+    display: block;
+}
+
+.horse-detail .card:hover .book-now-btn img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Media Queries for Responsive Design */
+@media (min-width: 768px) {
+
+    .horse-detail h2 {
+        font-size: 72px;
+    }
+
+    .horse-detail span {
+        font-size: 88px;
+
+    }
+    .horse-detail .card h5 {
+        font-size: 24px;
+    }
+
+    .horse-detail .card h5 span {
+        font-size: 18px;
+    }
+
+    .ride-count h4 {
+        font-size: 24px;
+    }
+
+    .ride-count h4 span {
+        font-size: 44px;
+    }
+
+    .book-now-btn img {
+        width: 80px;
+    }
+}

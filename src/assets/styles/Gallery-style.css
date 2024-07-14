@@ -1,0 +1,45 @@
+.gallery h2 {
+    position: relative;
+    font-size: 62px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gallery span {
+    color: #212121e4;
+    font-size: 78px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+.gallery .swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.gallery .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.gallery .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    .gallery h2 {
+        font-size: 72px;
+    }
+
+    .gallery span {
+        font-size: 88px;
+
+    }
+}

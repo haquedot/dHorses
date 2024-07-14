@@ -1,0 +1,105 @@
+.testimonials {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.testimonials h2 {
+    position: relative;
+    font-size: 62px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.testimonials span {
+    color: #212121e4;
+    font-size: 78px;
+    font-weight: 700;
+    margin-left: -50px;
+}
+
+
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.11);
+    min-height: 320px;
+}
+
+.testimonial-card .card-img-top {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .card-body {
+    padding: 0;
+}
+
+.testimonial-card .card-title {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+}
+
+.testimonial-card .card-text {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #555;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .testimonials h2 {
+        font-size: 72px;
+    }
+
+    .testimonials span {
+        font-size: 88px;
+
+    }
+
+    .testimonial-card {
+        padding: 30px;
+    }
+
+    .testimonial-card .card-title {
+        font-size: 24px;
+    }
+
+    .testimonial-card .card-text {
+        font-size: 18px;
+    }
+}
