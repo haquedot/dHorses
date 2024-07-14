@@ -10,25 +10,25 @@ const testimonials = [
         id: 1,
         name: 'John Doe',
         review: 'Amazing experience! The horses were well-trained and the ride was smooth.',
-        image: './src/assets/images/male.svg',
+        image: './public/images/male.svg',
     },
     {
         id: 2,
         name: 'Jane Smith',
         review: 'A wonderful day out with the family. Highly recommend!',
-        image: './src/assets/images/female.svg',
+        image: './public/images/female.svg',
     },
     {
         id: 3,
         name: 'Michael Johnson',
         review: 'The staff were friendly and the horses were beautiful. Will definitely come back!',
-        image: './src/assets/images/male.svg',
+        image: './public/images/male.svg',
     },
     {
         id: 4,
         name: 'Michael Johnson',
         review: 'The staff were friendly and the horses were beautiful. Will definitely come back!',
-        image: './src/assets/images/male.svg',
+        image: './public/images/male.svg',
     }
 ];
 
