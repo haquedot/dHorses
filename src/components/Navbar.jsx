@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/styles/Navbar-style.css';
 import logo from '../assets/images/logo.svg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -26,9 +27,9 @@ const Navbar = () => {
             <nav className={`navbar navbar-expand-lg bg-lg-transparent fixed-top `}>
                 <div className="w-100 d-flex justify-content-center">
                     <div className={`custom-nav d-flex align-items-lg-center ${scrolled ? 'navbar-scrolled' : 'bg-body-transparent'}`}>
-                        <a className="navbar-brand" href="#">
+                        <Link to="/" className="navbar-brand">
                             <img src={logo} className='brand-logo' alt="Brand Logo" />
-                        </a>
+                        </Link>
 
                         <div className="d-flex">
                             <button className="navbar-toggler sign-btn">Sign in</button>
@@ -40,7 +41,7 @@ const Navbar = () => {
                         <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                             <div className="offcanvas-header">
                                 <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                                    <img src={logo} className='brand-logo' />
+                                    <img src={logo} className='brand-logo' alt="Brand Logo" />
                                 </h5>
 
                                 <button type="button" className="btn-close bg-transparent border-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
@@ -50,18 +51,17 @@ const Navbar = () => {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav justify-content-end justify-content-lg-center align-items-lg-center flex-grow-1 pe-3">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                        <Link to="/" className="nav-link active" aria-current="page">Home</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">About</a>
+                                        <Link to='/dHorses/about' className="nav-link">About</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Contact</a>
+                                        <Link to='/dHorses/contact' className="nav-link">Contact</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Blog</a>
+                                        <Link to='/dHorses/blog' className="nav-link">Blog</Link>
                                     </li>
-
                                 </ul>
                                 <form className="d-flex mt-3 mt-lg-0" role="search">
                                     <button className="sign-btn d-none d-lg-block" type="submit">Sign in</button>

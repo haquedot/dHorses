@@ -1,13 +1,14 @@
-import './App.css'
-import Home from './pages/Home'
+import React from 'react';
+import AppRouter from './AppRouter';
+import Navbar from './components/Navbar';
 
-function App() {
-
+const App = () => {
   return (
     <>
-      <Home />
+      <Navbar />
+      <AppRouter />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
