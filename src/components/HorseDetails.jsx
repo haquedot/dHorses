@@ -1,5 +1,3 @@
-// src/components/HorseDetails.jsx
-
 import React from 'react';
 import thunderHorse from '../assets/images/thunder-horse.svg';
 import lightningHorse from '../assets/images/lightning-horse.svg';
@@ -11,15 +9,11 @@ import white3 from '../assets/images/white-3.svg';
 import white4 from '../assets/images/white-4.svg';
 
 import '../assets/styles/HorseDetails.css';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-
-// import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 
 const horses = [
@@ -32,7 +26,7 @@ const horses = [
 const HorseDetails = () => {
     return (
         <section className='container my-5 horse-detail'>
-            <div className="d-flex justify-content-center align-items-center mb-5 heading">
+            <div className="d-flex justify-content-center align-items-center heading">
                 <h2 className='text-center'>Our</h2>
                 <span>Horses</span>
             </div>
@@ -57,7 +51,7 @@ const HorseDetails = () => {
                     },
                 }}
                 modules={[Pagination, Autoplay]}
-                className="mySwiper"
+                className="mySwiper py-5"
             >
 
                 {horses.map(horse => (

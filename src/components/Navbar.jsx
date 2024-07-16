@@ -27,12 +27,12 @@ const Navbar = () => {
             <nav className={`navbar navbar-expand-lg bg-lg-transparent fixed-top `}>
                 <div className="w-100 d-flex justify-content-center">
                     <div className={`custom-nav d-flex align-items-lg-center ${scrolled ? 'navbar-scrolled' : 'bg-body-transparent'}`}>
-                        <Link to="/" className="navbar-brand">
+                        <Link to="/dHorses" className="navbar-brand">
                             <img src={logo} className='brand-logo' alt="Brand Logo" />
                         </Link>
 
                         <div className="d-flex">
-                            <button className="navbar-toggler sign-btn">Sign in</button>
+                            <Link to='/dHorses/signin' className="navbar-toggler sign-btn">Sign in</Link>
 
                             <button className="navbar-toggler bg-transparent border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 <i className="bi bi-text-center fs-2"></i>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             <div className="offcanvas-body">
                                 <ul className="navbar-nav justify-content-end justify-content-lg-center align-items-lg-center flex-grow-1 pe-3">
                                     <li className="nav-item">
-                                        <Link to="/" className="nav-link active" aria-current="page">Home</Link>
+                                        <Link to="/dHorses" className="nav-link active" aria-current="page">Home</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to='/dHorses/about' className="nav-link">About</Link>
@@ -63,9 +63,7 @@ const Navbar = () => {
                                         <Link to='/dHorses/blog' className="nav-link">Blog</Link>
                                     </li>
                                 </ul>
-                                <form className="d-flex mt-3 mt-lg-0" role="search">
-                                    <button className="sign-btn d-none d-lg-block" type="submit">Sign in</button>
-                                </form>
+                                <Link to='/dHorses/signin' className="sign-btn d-none d-lg-flex">Sign in</Link>
                             </div>
                         </div>
                     </div>

@@ -58,6 +58,8 @@
 
 
 .sign-btn {
+    display: flex;
+    align-items: center;
     border: none;
     background-image: linear-gradient(to right, #573017 0%, #C9723F 51%, #C9723F 100%);
     padding: 5px 20px;
@@ -68,6 +70,8 @@
     background-size: 200% auto;
     color: white;
     border-radius: 30px;
+    text-decoration: none;
+
 }
 
 .sign-btn:hover {

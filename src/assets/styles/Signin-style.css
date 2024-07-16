@@ -1,0 +1,88 @@
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('../images/hero-1.svg');
+}
+
+
+.signin-div {
+    display: block;
+    background-color: #6b3b1f5c;
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 460px;
+}
+
+.sign-in .brand-logo {
+    width: 110px;
+}
+
+.sign-in h2 {
+    position: relative;
+    font-size: 52px;
+    font-family: Dancing Script;
+    background: -webkit-linear-gradient(#ffffff, #C9723F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sign-in .heading span {
+    color: #212121e4;
+    font-size: 52px;
+    font-weight: 700;
+    margin-right: -10px;
+}
+
+.sign-in .form-control{
+    background-color: #75391623 !important;
+    border: 1px solid #fff;
+    color: #fff !important;
+    padding: 10px 14px;
+}
+
+.sign-in .form-control:focus{
+    background-color: #75391623 !important;
+    border: 1px solid #ff7b2e;
+    box-shadow: none;
+    color: #ff7b2e !important; 
+}
+.sign-in label {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Inter;
+    margin-bottom: 5px;
+}
+
+.sign-btn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color:  #C9723F;
+    padding: 8px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+@media (min-width: 768px) {
+
+    .sign-in h2 {
+        font-size: 42px;
+    }
+
+    .sign-in .heading span {
+        font-size: 42px;
+
+    }
+}

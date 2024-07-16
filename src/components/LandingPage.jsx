@@ -33,7 +33,6 @@ const LandingPage = () => {
             )}
             <div className="container">
                 <div className="d-block text-center">
-                    {/* <img src="/src/assets/images/logo.svg" alt="" className='logo'/> */}
                     <h6>Discover</h6>
                     <h1 className='mb-3'>Your Perfect Horse <br />Ride Experience</h1>
                     <button type="button" className='book-now' onClick={handleShowBookingForm}>Book Now</button>
