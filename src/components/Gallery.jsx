@@ -19,9 +19,6 @@ import 'swiper/css/pagination';
 
 import { Autoplay, EffectCoverflow, Pagination } from 'swiper/modules';
 
-
-
-
 const Gallery = () => {
 
 

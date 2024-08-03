@@ -30,7 +30,6 @@ const Navbar = () => {
                         <Link to="/dHorses" className="navbar-brand">
                             <img src={logo} className='brand-logo' alt="Brand Logo" />
                         </Link>
-
                         <div className="d-flex">
                             <Link to='/dHorses/signin' className="navbar-toggler sign-btn">Sign in</Link>
 
@@ -43,7 +42,6 @@ const Navbar = () => {
                                 <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
                                     <img src={logo} className='brand-logo' alt="Brand Logo" />
                                 </h5>
-
                                 <button type="button" className="btn-close bg-transparent border-0 ms-auto" data-bs-dismiss="offcanvas" aria-label="Close">
                                     <i className="bi bi-x-lg text-white"></i>
                                 </button>

@@ -53,7 +53,6 @@ const HorseDetails = () => {
                 modules={[Pagination, Autoplay]}
                 className="mySwiper py-5"
             >
-
                 {horses.map(horse => (
                     <SwiperSlide key={horse.id} className="horse-card col-md-3 mb-4">
                         <div className="card border-0">
@@ -69,12 +68,10 @@ const HorseDetails = () => {
                             <button className="book-now-btn bg-transparent border-0">
                                 <img src={horse.logo} alt="" />
                             </button>
-
                         </div>
                     </SwiperSlide>
                 ))}
             </Swiper>
-
         </section>
     );
 };

@@ -9,14 +9,12 @@ function Signin() {
             <div className="sign-in">
                 <div className="container">
                     <div className="signin-div ms-auto me-auto ms-lg-auto p-4">
-                        <Link to="/dHorses" className="navbar-brand">
-                            <img src={logo} className='d-block mx-auto mb-4 brand-logo' alt="Brand Logo" />
-                        </Link>
-                        
-                        {/* <div className="d-flex justify-content-center align-items-center heading mb-4">
-                            <span>Sign</span>
-                            <h2 className='text-center'>in</h2>
-                        </div> */}
+                        <div className="d-block">
+                            <Link to="/dHorses" className="navbar-brand">
+                                <img src={logo} className='d-block mx-auto mb-4 brand-logo' alt="Brand Logo" />
+                            </Link>
+                        </div>
+
                         <form>
                             <div className="mb-3">
                                 <label htmlFor="email">Username</label>
