@@ -1,13 +1,13 @@
 import React from 'react';
-import horse1 from '../assets/images/horse-1.svg';
-import horse2 from '../assets/images/horse-2.svg';
-import horse3 from '../assets/images/horse-3.svg';
-import horse4 from '../assets/images/horse-4.svg';
-import horse5 from '../assets/images/horse-5.svg';
-import horse6 from '../assets/images/horse-6.svg';
-import horse7 from '../assets/images/horse-7.svg';
-import horse8 from '../assets/images/horse-8.svg';
-import horse9 from '../assets/images/horse-9.svg';
+import horse1 from '../assets/images/horse-1.jpg';
+import horse2 from '../assets/images/horse-2.jpg';
+import horse3 from '../assets/images/horse-3.jpg';
+import horse4 from '../assets/images/horse-4.jpg';
+import horse5 from '../assets/images/horse-5.jpg';
+import horse6 from '../assets/images/horse-6.jpg';
+import horse7 from '../assets/images/horse-7.jpg';
+import horse8 from '../assets/images/horse-8.jpg';
+import horse9 from '../assets/images/horse-9.jpg';
 
 import '../assets/styles/Gallery-style.css';
 
