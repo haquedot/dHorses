@@ -1,6 +1,6 @@
 import React from 'react';
-import male from '../assets/images/male.svg';
-import female from '../assets/images/female.svg';
+import male from '../assets/images/male.jpg';
+import female from '../assets/images/female.jpg';
 import '../assets/styles/Testimonials-style.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
